@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sinsanks_python_1729823601098-pr-trigger-input-set
+  identifier: Build_sinsanks_python_1729823601098prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sinsanks_python_1729823601098
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
