@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sinsanks_python_1729823601098-push-trigger-input-set
+  identifier: Build_sinsanks_python_1729823601098pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sinsanks_python_1729823601098
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
